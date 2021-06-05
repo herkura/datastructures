@@ -61,7 +61,7 @@ class Stack
        }
 }
 
-class driver
+class Solution
 {
     public static void main(String[] args)
     {
