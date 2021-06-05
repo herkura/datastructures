@@ -1,3 +1,5 @@
+//static memory allocation.//
+//using arrays.//
 class Stack
 {
     int top;
