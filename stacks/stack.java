@@ -1,6 +1,6 @@
 //static memory allocation.//
 //using arrays.//
-// time complexity : o(N) | space complexity: o(N).//
+
 class Stack
 {
     int top;
