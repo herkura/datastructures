@@ -1,5 +1,6 @@
 //static memory allocation.//
 //using arrays.//
+// time complexity : o(N) | space complexity: o(N).//
 class Stack
 {
     int top;
@@ -7,7 +8,7 @@ class Stack
     {
         top=-1;
     }
-    int max = 1000;
+    int max = 1000;//max size of the stack array.//
     int stack[] = new int[max];
     boolean isEmpty()
     {
