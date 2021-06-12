@@ -73,12 +73,6 @@ class Solution
     //taking the user input and pushing it into the stack.
     Scanner inp = new Scanner(System.in);
     String s = inp.nextLine;
-    Stack<Integer> stack = new Stack<>();
-    for(int i=0;i<s.length();i++)
-    {
-      String val = inp.nextLine();
-      stack.push(val);
-    }
     System.out.print(infixTopostfix(s));
   }
 }
