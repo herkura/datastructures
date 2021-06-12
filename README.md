@@ -1,2 +1,2 @@
 # Interview prep
-Solving data-structures and algorithms problems in Java
+Solving data-structures and algorithm problems in Java
