@@ -85,8 +85,18 @@ class LinkedList
       }
       prev.next = prev.next.next;
       size--;  
-        }
+      }
   } 
+  //printing 
+  public void print(int data)
+  {
+    Node curr = head;
+    while(curr.next!=null)
+    {
+      System.out.print(curr.data + " ");
+    }curr = curr.next;
+  }
+  
 }
 class Solution
 {
@@ -103,6 +113,7 @@ class Solution
    obj.addAtTail(val);
    obj.addAtIndex(index,val);
    obj.deleteAtIndex(index);
+   print(val);
  
   }
 }
