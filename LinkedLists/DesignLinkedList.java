@@ -1,5 +1,6 @@
 // Time : O(1) - for inserting at head.
 // Time : O(n) - for instering at tail.  
+import java.util.*;
 class LinkedList
 {
   public class Node
@@ -91,7 +92,12 @@ class Solution
 {
   public static void main(String[] args)
   {
+   Scanner sc = new Scanner(System.in); 
    LinkedList obj = new LinkedList();
+   System.out.print("Enter the index: ");
+   int index = sc.nextInt();
+   System.out.print("Enter the value: ");
+   int val = sc.nextInt();
    int param_1 = obj.get(index);
    obj.addAtHead(val);
    obj.addAtTail(val);
