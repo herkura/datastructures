@@ -24,6 +24,7 @@ public class Solution
       {
         return true;
       }
+      set.add(head);
       head = head.next;
     }
     return false;         
