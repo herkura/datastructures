@@ -4,14 +4,15 @@
 //eg2: [1], pos=-1
 //output=false
 //Solution 1: usind hash set, Time complexity:O(n), space complexity:O(n)
-class ListNode {
+//Definition of data structure usedL:
+/*class ListNode {
        int val;
        ListNode next;
       ListNode(int x) {
           val = x;
           next = null;
       }
-  }
+  }*/
 public class Solution
 {
   public boolean hasCycles(ListNode head)
@@ -30,14 +31,14 @@ public class Solution
 }
 //Solution 2: Using 2 pointers
 //time : O(n) , space: O(1)
-class ListNode {
+/*class ListNode {
        int val;
        ListNode next;
       ListNode(int x) {
           val = x;
           next = null;
       }
-  }
+  }*/
 class Solution
 {
   public boolean hasCycles(ListNode head)
