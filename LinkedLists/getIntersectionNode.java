@@ -25,6 +25,7 @@ public class Solution
       while(headA!=null)
       {
          visited.add(headA);
+         headA = headA.next;
       }
      while(headB!=null)
      {
@@ -32,6 +33,7 @@ public class Solution
        {
          return headB; 
        }
+      headB = headB.next;
      }
      return null; 
    } 
