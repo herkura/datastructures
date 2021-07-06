@@ -16,7 +16,7 @@ class Solution
   public ListNode mergeList(ListNode l1 , ListNode l2)
   {
     //a temp Node that holds the value of head
-    ListNode temp = new Node(0);
+    ListNode temp = new ListNode(0);
     ListNode head = temp;
     //iterate through the 2 lists
     while(l1!=null && l2!=null)
