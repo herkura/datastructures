@@ -26,6 +26,6 @@ class Solution
         min = map.get(c);
       }
     }
-    return min == MAX_VALUE ? -1 : min;
+    return min == Integer.MAX_VALUE ? -1 : min;
   }
 }
