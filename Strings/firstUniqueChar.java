@@ -18,7 +18,7 @@ class Solution
         map.put(s.charAt(i),-1);
       }
     }
-    int minIndex = Integer.MAX_VALUE;
+    int min = Integer.MAX_VALUE;
     for(char c:map.keySet())
     {
       if(map.get(c)>=-1 && map.get(c)<min)
