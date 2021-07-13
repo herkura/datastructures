@@ -40,9 +40,9 @@ class Solution
         end--;
       }
       //if we find the vowel
-      char temp = char[start];
-      char[start] = char[end];
-      char[end] = temp;
+      char temp = chars[start];
+      chars[start] = chars[end];
+      chars[end] = temp;
       start++;
       end--;
     }
