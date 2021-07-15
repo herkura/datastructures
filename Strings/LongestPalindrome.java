@@ -11,7 +11,7 @@ class Solution
       charCounts[c]++;
     }
      int result=0;
-    for(Integer c:charCounts)
+    for(int c:charCounts)
     {
       result+=c/2*2; // this will add the maximum number of chars which can form a palindrome
       if(result%2==0 && c%2==1)
