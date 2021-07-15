@@ -33,6 +33,8 @@ class Solution
       {
         return false;
       }
+     slow = slow.next;
+     fast = fast.next;
     }
     return true;
   }
