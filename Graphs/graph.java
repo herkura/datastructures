@@ -11,11 +11,11 @@ class Graph<H>
   //Method for adding an edge in the graph
   public void addEdge(H src , H dest, boolean direction)
   {
-    if(map.containsKey(src))
+    if(!map.containsKey(src))
     {
       addVertex(src);
     }
-    if(map.containsKey(dest)
+    if(!map.containsKey(dest)
     {
       addVertex(dest);
     }
