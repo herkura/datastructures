@@ -6,7 +6,7 @@ class Graph<H>
   //Method for adding a vertex in the graph
   public void addVertex(H data)
   {
-     map.put(data,LinkedList<H>()>;
+     map.put(data,LinkedList<H>());
   }
   //Method for adding an edge in the graph
   public void addEdge(H src , H dest, boolean direction)
