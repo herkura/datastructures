@@ -12,7 +12,7 @@ class Solution
     {
       this.val = val;
     }
-  }
+  
   public ArrayList<Integer> bfs(ArrayList<Integer> nums)
   {
     Queue<Node> queue = new LinkedList<Node>();
@@ -31,6 +31,7 @@ class Solution
     Node e = new Node(edge);
     children.add(e);
     return this;
+  }
   }
 }
 //Time : O(v+e) space: O(v)
