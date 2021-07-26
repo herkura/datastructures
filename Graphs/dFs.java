@@ -11,7 +11,7 @@ class Solution
     {
       this.data = data;
     }
-  }
+  
   public List<Integer> dFs(ArrayList<Integer> array)
   {
     array.add(this.data);
@@ -26,5 +26,6 @@ class Solution
     Node edge = new Node(e);
     children.add(edge);
     return this;
+  }
   }
 }
