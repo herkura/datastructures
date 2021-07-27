@@ -15,12 +15,12 @@ class Graph
     }
   }
   // adding the edges in the graph
-  public void addEdge(int src , int dest)
+  private void addEdge(int src , int dest)
   {
     adj.get(src).add(dest);
   }
   //performing dfs
-  public void dfs(int v,boolean[] visited,Stack<Integer> stack)
+  private void dfs(int v,boolean[] visited,Stack<Integer> stack)
   {
      visited[v] = true;
      for(int i:adj.get(v))
@@ -33,7 +33,7 @@ class Graph
     stack.push(new Integer(v));
   }
   //performing topological sort
-  public void topologicalSort()
+  private void topologicalSort()
   {
     boolean[] visited = new boolean[v];
     for(int i=0;i<v;i++)
