@@ -12,12 +12,12 @@ class Graph
     adj = new ArrayList<ArrayList<Integer>>(v);
   }
   
-  public void addEdge(int src, int dest)
+  private void addEdge(int src, int dest)
   {
     adj.get(src).add(dest);
   }
   
-  public void dfsInit(int v, boolean[] visited)
+  private void dfsInit(int v, boolean[] visited)
   {
     //mark all the vertices as visited
     visited[v] = true;
@@ -30,7 +30,7 @@ class Graph
       }
     }
   }
-  public void dfs(int v)
+  private void dfs(int v)
   {
     boolean[] visited = new boolean[v];
     dfsInit(i,visited);
