@@ -1,31 +1,52 @@
 //Implementing Depth First Search using recursive function
 //Time : O(V+E)
 //Space : O(V)
-class Solution
+import java.util.*;
+class Graph
 {
-  Static class Node
+  private int v;
+  private ArrayList<ArrayList<Integer> adj;
+  Graph(int v)
   {
-    int data;
-    List<Node> children = new ArrayList<Node>();
-    public Node(int data)
-    {
-      this.data = data;
-    }
+    this.v=v;
+    adj = new ArrayList<ArrayList<Integer>>(v);
+  }
   
-  public List<Integer> dFs(ArrayList<Integer> array)
+  public void addEdge(int src, int dest)
   {
-    array.add(this.data);
-    for(int i=0;i<children.size();i++)
+    adj.get(src).add(dest);
+  }
+  
+  public void dfsInit(int v, boolean[] visited)
+  {
+    //mark all the vertices as visited
+    visited[v] = true;
+    System.out.print(v+"");
+    for(int i:adj.get(v))
     {
-      children.get(i).dFs(array);
+      if(!visited[i]))
+      {
+        dfsInit(i,visited);
+      }
     }
-    return array;
   }
-  public Node addChld(int e)
+  public void dfs(int v)
   {
-    Node edge = new Node(e);
-    children.add(edge);
-    return this;
+    boolean[] visited = new boolean[v];
+    dfsInit(i,visited);
   }
+  public static void main(String[] args)
+  {
+   
+    Scanner sc = new Scanner(System.in);
+    int v=  sc.nextInt();
+     Graph g = new Graph(v);
+    int src= sc.nextInt();
+    int dest = sc.nextInt();
+    for(int i=0;i<v;i++)
+    {
+      addEdge(src,dest);
+    }
+    dfs(v);
   }
 }
