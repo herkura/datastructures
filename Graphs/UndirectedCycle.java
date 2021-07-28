@@ -54,5 +54,17 @@ class Graph
       }
     }
     return false;
+  } public static void main(String[] args)
+  {
+    Scanner sc = new Scanner(System.in);
+    int v = sc.nextInt();
+    Graph g = new Graph(v);
+    int src = sc.nextInt();
+    int dest = sc.nextInt();
+    for(int i=0;i<v;i++)
+    {
+      addEdge(src,dest);
+    }
+    g.isCyclic();
   }
 }
