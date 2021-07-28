@@ -1,4 +1,6 @@
 // Given a DIRECTED graph ,we have to check if the graph has cycles or not
+//There is a cycle in a graph only if there is a back edge present in the graph. 
+//A back edge is an edge that is from a node to itself (self-loop) or one of its ancestors in the tree produced by DFS
 import java.util.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
