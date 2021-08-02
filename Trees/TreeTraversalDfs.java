@@ -58,11 +58,11 @@ class BinaryTree
     Scanner sc = new Scanner(System.in);
     int val = sc.nextInt();
     BinaryTree tree = new BinaryTree();
-		tree.root = new Node(val);
-		tree.root.left = new Node(val);
-		tree.root.right = new Node(val);
-		tree.root.left.left = new Node(val);
-		tree.root.left.right = new Node(val);
+    tree.root = new Node(val);
+    tree.root.left = new Node(val);
+    tree.root.right = new Node(val);
+    tree.root.left.left = new Node(val);
+    tree.root.left.right = new Node(val);
     System.out.print(Inorder());
     System.out.print(Preorder());
     System.out.print(Postorder());
