@@ -5,14 +5,14 @@
 //in a cellphone 2 maps to abc , 3 maps to def and so on
 //so in this question we have to create a tree for the above strings
 /*           2 -> "abc"
-			       3 -> "def"
+	     3 -> "def"
                     "abc"
              /        |      \
            a          b       c
-			    /           |         \
-		    d e f      d e f     d e f
-		   /  |  \    /  |  \   /  |  \ 
-		  ad ae  af   bd be bf  cd ce  cf
+	  /            |         \
+         d e f      d e f     d e f
+	 /  |  \    /  |  \   /  |  \ 
+	ad ae  af   bd be bf  cd ce  cf
  */
 //so following the above tree  we will create seperate combination for every character of the digits string
 //once we have made the max commbinations for a in abc we will backtrack and begin with b 
