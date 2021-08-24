@@ -5,7 +5,7 @@ import java.util.*;
 class Graph
 {
   private int v;
-  private ArrayList<ArrayList<Integer> adj;
+  private ArrayList<ArrayList<Integer>> adj;
   Graph(int v)
   {
     this.v=v;
