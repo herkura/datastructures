@@ -21,10 +21,10 @@ class Solution {
     public int[] findMode(TreeNode root) {
       dfs(root);
       List<Integer> ls = new ArrayList<Integer>();
-      int max_count = Collections.max(map.values());
+      int max = Collections.max(map.values());
       for(int i:map.keySet())
       {
-        if(map.get(i) == max_count)
+        if(map.get(i) == max)
         {
           ls.add(i);
         }
