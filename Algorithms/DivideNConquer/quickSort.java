@@ -3,7 +3,8 @@
 // 1) if left > pivot and right < pivot, swap the right pointer with the left one
 // 2) if left <= pivot, left++. if right>=pivot then right--.
 // 3) if the above 2 conditions are not there then  just swap the right pointer with the pivot.
-// Best Time complexity : O(nlogn) ,Best space : O(logn). 
+// Best Time complexity : O(nlogn) ,Best space : O(logn).
+import java.util.*;
 class solution
 {
   public static int[] quicksort(int[] nums)
@@ -13,6 +14,10 @@ class solution
   }
   public static void helper(int[] nums, int start, int end)
   {
+    if(start>=end)
+    {
+      return;
+    }
     int pivot = start;
     int left = start+1;
     int right = nums.length-1;
@@ -52,5 +57,16 @@ class solution
     int temp = nums[j];
     nums[j] = nums[i];
     nums[i] = temp;
+  }
+  public static void main(String[] args)
+  {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] nums = new int[n];
+    for(int i=0;i<n;i++)
+    {
+      nums[i] = sc.nextInt();
+    }
+    System.out.print(quicksort(nums));
   }
 }
