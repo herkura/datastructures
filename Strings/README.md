@@ -2,7 +2,7 @@
 In java strings are objects that are backed internally by a char array. Since arrays are immutable(cannot grow), Strings are immutable as well.
 Whenever a change to a String is made, an entirely new String is created.
 
-<img src= "https://media.geeksforgeeks.org/wp-content/uploads/finnnal.png"></img></br>
+<img src= "https://media.geeksforgeeks.org/wp-content/uploads/20210711152428/JVMMemoryArea2.png"></img></br>
 source : "Geeks For Geeks"
 
 ### Memory allotment of String
