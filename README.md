@@ -1,7 +1,9 @@
 # Interview prep
+
 Solving data-structures and algorithm problems in Java
 
 ## Topics
+
 ![Algorithms](https://github.com/herkura/datastructures/tree/main/Algorithms)
 ![Arrays](https://github.com/herkura/datastructures/tree/main/arrays)
 ![Strings](https://github.com/herkura/datastructures/tree/main/Strings)
@@ -11,7 +13,8 @@ Solving data-structures and algorithm problems in Java
 ![Trees](https://github.com/herkura/datastructures/tree/main/Trees)
 ![Graphs](https://github.com/herkura/datastructures/tree/main/Graphs)
 
-## My Article for reference 
+## My Article for reference
+
 ![Click Here](https://medium.com/interviewnoodle/best-ways-to-get-better-at-data-structures-and-algorithms-d8f12d340925)
 
-### Feel free to add questions to this list. 
+### Feel free to add questions to this list.
