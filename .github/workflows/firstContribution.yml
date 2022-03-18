@@ -15,9 +15,8 @@ jobs:
             with: 
              github-token: ${{ secrets.GITHUB_TOKEN }}
              issue-message: '<h1> Its great having you contribute to this repository</h1>'
-             pr-message: 'Thanks alot for contribution :rocket'
-             footer: 'Feel free to check out my other projects as well.
-                      If you would like to contribute or have an enhancement then do raise an issue for that repo.'
+             pr-message: 'Thanks alot for contribution 🚀😁'
+             footer: 'Feel free to check out my other projects as well. If you would like to contribute or have an enhancement then do raise an issue for that repo.😁'
             
 
 
